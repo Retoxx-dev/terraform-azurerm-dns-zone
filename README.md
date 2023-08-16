@@ -1,4 +1,4 @@
-# terraform-azurerm-dns-zones
+# terraform-azurerm-dns-zone
 
 ## Create a DNS Zone with various type of records in Azure
 With this module you can create a DNS Zone in Azure and add various type of records to it. You can specify multiple records of each type.
