@@ -43,7 +43,7 @@ variable "a_records" {
   type = list(object({
     name               = string
     ttl                = number
-    records            = optional(list(string), [])
+    records            = optional(list(string), null)
     target_resource_id = optional(string, null)
     tags               = optional(map(string), null)
   }))
@@ -58,7 +58,7 @@ variable "aaaa_records" {
   type = list(object({
     name               = string
     ttl                = number
-    records            = optional(list(string), [])
+    records            = optional(list(string), null)
     target_resource_id = optional(string, null)
     tags               = optional(map(string), null)
   }))
